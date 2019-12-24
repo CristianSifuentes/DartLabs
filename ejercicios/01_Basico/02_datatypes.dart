@@ -88,11 +88,23 @@ print(Setsx);
 
 
 
-
-
-
-
-
-
   //Mapas
+
+  //Diccionarios, objetos
+  //ujna variable o tipo de datos que tiene pares de valores
+
+  var ironman = {'nombre': 'Tony', 'poder': 'rico', 'edad': 89};
+  print(ironman);
+  print(ironman['nombre']);
+  print(ironman['poder']);
+
+  Map<dynamic, Object> objetos2 = {'nombre': 'Tony', 'poder': 'rico', 'edad': 89, 10: 'dire'};
+ print(objetos2);
+
+ Map<String, dynamic> capitan = new Map();
+ print(capitan);
+
+
+
+
 }
